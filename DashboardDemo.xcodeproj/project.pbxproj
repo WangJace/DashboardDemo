@@ -15,6 +15,7 @@
 		960AC9E7213D3DF100EA61D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 960AC9E6213D3DF100EA61D9 /* main.m */; };
 		960AC9F1213D3DF100EA61D9 /* DashboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960AC9F0213D3DF100EA61D9 /* DashboardDemoTests.m */; };
 		960AC9FC213D3DF100EA61D9 /* DashboardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960AC9FB213D3DF100EA61D9 /* DashboardDemoUITests.m */; };
+		960ACA0B213D3DFC00EA61D9 /* WJDashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 960ACA0A213D3DFC00EA61D9 /* WJDashboardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		960AC9F7213D3DF100EA61D9 /* DashboardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashboardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		960AC9FB213D3DF100EA61D9 /* DashboardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashboardDemoUITests.m; sourceTree = "<group>"; };
 		960AC9FD213D3DF100EA61D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960ACA09213D3DFC00EA61D9 /* WJDashboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDashboardView.h; sourceTree = "<group>"; };
+		960ACA0A213D3DFC00EA61D9 /* WJDashboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDashboardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				960AC9D8213D3DF000EA61D9 /* AppDelegate.m */,
 				960AC9DA213D3DF000EA61D9 /* ViewController.h */,
 				960AC9DB213D3DF000EA61D9 /* ViewController.m */,
+				960ACA09213D3DFC00EA61D9 /* WJDashboardView.h */,
+				960ACA0A213D3DFC00EA61D9 /* WJDashboardView.m */,
 				960AC9DD213D3DF000EA61D9 /* Main.storyboard */,
 				960AC9E0213D3DF100EA61D9 /* Assets.xcassets */,
 				960AC9E2213D3DF100EA61D9 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				960AC9DC213D3DF000EA61D9 /* ViewController.m in Sources */,
+				960ACA0B213D3DFC00EA61D9 /* WJDashboardView.m in Sources */,
 				960AC9E7213D3DF100EA61D9 /* main.m in Sources */,
 				960AC9D9213D3DF000EA61D9 /* AppDelegate.m in Sources */,
 			);
